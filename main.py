@@ -21,4 +21,4 @@ for pos,note,col in notes:
   Beep(int({c*s**note}),200)''')
   Button(window,text=txts[col],font=('consolas',15),bg=cols[col],command=eval(f'c{note}')).place(x=pos*20,y=0)
 
-  window.mainloop()
+window.mainloop()
